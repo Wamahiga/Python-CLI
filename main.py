@@ -2,28 +2,23 @@ def main_menu():
 
     while True:
         print("""
-        ----------------------------------------------
-        -----------------GROCERY SHOP-----------------
-        ----------------------------------------------
-        Menu:-
-            1) Purchase
-            2) Product
-            3) Customer
-            4) Exit
-        ----------------------------------------------
+        *****WELCOME TO MAMA MBOGA GROCERIES*****
+        **************MAIN MENU******************
+                [1].CUSTOMER OPERATIONS
+                [2].PRODUCT OPERATIONS
+                [3].PURCHASE MENU
+                [4].SEARCH
+                [0].EXIT
         """)
 
-        choice = input('Enter a Menu option to continue:')
+        option = input('Input an option to proceed:')
 
-        if choice == "1":
+        if option == "1":
+             from Customer.customer import customer_operations
+             customer_operations()
+             break
 
-            from Order.process_order import p_order
-            p_order()
-
-            # To avoid continuous looping
-            break
-
-        elif choice == "2":
+        elif option == "2":
 
             from Product.product import product_info
 
@@ -31,21 +26,20 @@ def main_menu():
 
             break
 
-        elif choice == "3":
-
-            from Customer.customer import customer_info
-
-            customer_info()
-
+        elif option == "3":
+            from purchase.purchase import purchase_operation
+            purchase_operation()
             break
-
-        elif choice == "4":
-
+        elif option == "4":
+            from search.search import search
+            search()
+            break
+        elif option == "0":
             exit()
-
         else:
-            print('\nINVALID OPTION! Enter 1 - 4!')
+            print('\nINVALID OPTION! please try again')
             main_menu()
 
 
-main_menu()
+if __name__ == '__main__':
+ main_menu()

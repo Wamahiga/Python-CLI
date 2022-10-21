@@ -1,17 +1,22 @@
 [
     {
-        "Product_Name": "Carrot",
-        "Product_Quantity": 872,
-        "Product_Price": "60.00"
+        "Product_Name": "TOMATOES",
+        "Product_Quantity": 85,
+        "Product_Price": "20.00"
     },
     {
-        "Product_Name": "Okra",
-        "Product_Quantity": 258,
-        "Product_Price": "900.00"
+        "Product_Name": "GRAPES",
+        "Product_Quantity": 193,
+        "Product_Price": "100.00"
     },
     {
-        "Product_Name": "Ginger",
-        "Product_Quantity": 552,
-        "Product_Price": "140.00"
+        "Product_Name": "tomatoes",
+        "Product_Quantity": 189,
+        "Product_Price": "2.00"
+    },
+    {
+        "Product_Name": "potatoes",
+        "Product_Quantity": 297,
+        "Product_Price": "600.00"
     }
 ]
