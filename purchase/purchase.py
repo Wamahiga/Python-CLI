@@ -38,6 +38,7 @@ def make_purchase():
     with open("purchase/cart.json", "r") as json_file:
         order_temp = json.load(json_file)
     if not order_temp:
+        #PROMPT FOR USER ID AND CHECK IF USER EXISTS
         from Customer.customer import view_customer
         view_customer()
         with open(cus_file, "r") as json_file:
@@ -66,8 +67,9 @@ def make_purchase():
                 else:
                     pass
                     i = i + 1
+        #PROMPT USER TO INPUT PRODUCT ID AND VALIDATE
         from Product.product import view_product
-
+        print("\nPRODUCTS IN STOCK:")
         view_product()
 
         with open(prod_file, "r") as json_file:
@@ -87,7 +89,7 @@ def make_purchase():
                 check_out[prod_id]["Product_id"] = opt
                 check_out[prod_id]["Product_Name"] = entry["Product_Name"]
                 check_out[prod_id]["Product_Quantity"] = int(input(f"\nEnter quantity to purchase "
-                                                                   f"Items in stock are {prod_qty}) units:"))
+                                                                   f"Items in stock are ({prod_qty}) units:"))
                 check_out[prod_id]["Product_Price"] = entry["Product_Price"]
                 price_tint = float(check_out[prod_id]["Product_Price"])
                 subtt = price_tint * check_out[prod_id]["Product_Quantity"]
@@ -98,11 +100,12 @@ def make_purchase():
             else:
                 pass
                 i = i + 1
+        #DUMP THE FIRST ITEM TO CART
         with open("purchase/cart.json", "w") as json_file:
             json.dump(cart_temp, json_file, indent=4)
             print("\nITEM ADDED TO CART!")
 
-    #checkout
+  # Add more products to cart and checkout
     else:
         from Product.product import view_product
         view_product()
@@ -145,6 +148,8 @@ def make_purchase():
         if cont_shopping == 1:
             make_purchase()
         elif cont_shopping == 2:
+
+
             # calculating total
             with open("purchase/cart.json", "r") as json_file:
                 checkout_temp = json.load(json_file)
@@ -167,7 +172,7 @@ def make_purchase():
                 json.dump(checkout_temp, json_file, indent=4)
         break
 
-    # receipt
+    # print receipt
     with open("purchase/cart.json", "r") as json_file:
         fin_temp = json.load(json_file)
     [strip_fin_temp] = fin_temp
@@ -186,10 +191,13 @@ def make_purchase():
             print(f"Product Quantity: {strip_fin_temp[i]['Product_Quantity']}")
             print(f"Product Price: Ksh. {strip_fin_temp[i]['Product_Price']}")
             print(f"Sub-Total: Ksh. {strip_fin_temp[i]['Sub-Total']}")
-
-    print("*******************Thank you for Shopping with us*****************")
+            
+    print("\n******************************************************************")
+    print("\n*******************Thank you for Shopping with us*****************")
 
     send_mail()
+    print("\nReceipt sent to email")
+    
     # inventory decreament after purchase
     with open("purchase/cart.json", "r") as json_file:
         pid_temp = json.load(json_file)
@@ -281,7 +289,7 @@ def create_pur_id():
         new_id = "Ord" + str(num)
         return new_id
 
-
+#read all previous purchases
 
 def view_purchase():
     with open("purchase/purchase.json", "r") as json_file:
@@ -308,7 +316,7 @@ def view_purchase():
 
     print("*****************************************************************************************")
 
-
+#send recept to email
 def send_mail():
 
     with open("purchase/cart.json", "r") as json_file:
@@ -319,7 +327,7 @@ def send_mail():
     email_pass = "ydupfucuckvvkjpf"
     email_receiver = ''
 
-    subject = "MAMA MBOGA GROCERIES"
+    subject = "WAMAHIGA DUKA"
 
     body = "\n"
     body += "***********PURCHASE RECEIPT**************"
@@ -338,7 +346,7 @@ def send_mail():
             body += f"\nPrice: Ksh. {strip_fin_temp[i]['Product_Price']}"
             body += f"\nTotal: Ksh. {strip_fin_temp[i]['Sub-Total']}"
             body += "\n"
-    
+    body += "\n"
     body += "******THANKYOU FOR SHOPPING WITH US******"
 
     em = EmailMessage()

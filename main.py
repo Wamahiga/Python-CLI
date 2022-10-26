@@ -2,7 +2,7 @@ def main_menu():
 
     while True:
         print("""
-        *****WELCOME TO MAMA MBOGA GROCERIES*****
+        ***** WELCOME TO WAMAHIGA'S DUKA ********
         **************MAIN MENU******************
                 [1].CUSTOMER OPERATIONS
                 [2].PRODUCT OPERATIONS
@@ -11,7 +11,7 @@ def main_menu():
                 [0].EXIT
         """)
 
-        option = input('Input an option to proceed:')
+        option = input('Enter an option to proceed:')
 
         if option == "1":
              from Customer.customer import customer_operations
@@ -20,9 +20,9 @@ def main_menu():
 
         elif option == "2":
 
-            from Product.product import product_info
+            from Product.product import product_operations
 
-            product_info()
+            product_operations()
 
             break
 
@@ -35,6 +35,7 @@ def main_menu():
             search()
             break
         elif option == "0":
+            print("EXITING APPLICATION!")
             exit()
         else:
             print('\nINVALID OPTION! please try again')

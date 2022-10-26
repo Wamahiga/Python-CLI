@@ -1,22 +1,22 @@
 [
     {
-        "Product_Name": "TOMATOES",
-        "Product_Quantity": 85,
-        "Product_Price": "20.00"
+        "Product_Name": "Ariel washing powder",
+        "Product_Quantity": 98,
+        "Product_Price": "200.00"
     },
     {
-        "Product_Name": "GRAPES",
-        "Product_Quantity": 193,
-        "Product_Price": "100.00"
+        "Product_Name": "Salit cooking oil 5kg",
+        "Product_Quantity": 6,
+        "Product_Price": "1200.00"
     },
     {
-        "Product_Name": "tomatoes",
-        "Product_Quantity": 189,
-        "Product_Price": "2.00"
+        "Product_Name": "Kifaru Matches 12 packs",
+        "Product_Quantity": 72,
+        "Product_Price": "25.00"
     },
     {
-        "Product_Name": "potatoes",
-        "Product_Quantity": 297,
-        "Product_Price": "600.00"
+        "Product_Name": "Delmonte mango",
+        "Product_Quantity": 89,
+        "Product_Price": "275.00"
     }
 ]

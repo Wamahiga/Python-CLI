@@ -1,262 +1,145 @@
 [
     {
         "Ord1": {
-            "Customer Name": "Dr Albert",
-            "Email": "albert@jengaschool.com",
+            "Customer Name": "Peter Griffin",
+            "Email": "grifin@gmail.com",
             "Prod1": {
-                "Product_id": 2,
-                "Product_Name": "MANGO",
-                "Product_Quantity": 2,
-                "Product_Price": "20.00",
-                "Sub-Total": "40.00"
+                "Product_id": 1,
+                "Product_Name": "Ariel washing detergent 1kg",
+                "Product_Quantity": 1,
+                "Product_Price": "70.00",
+                "Sub-Total": "70.00"
             },
-            "Prod2": {
-                "Product_id": 3,
-                "Product_Name": "ORANGE",
-                "Product_Quantity": 10,
-                "Product_Price": "10.00",
-                "Sub-Total": "100.00"
-            },
-            "Total": "140.00"
+            "Total": "70.00"
         },
         "Ord2": {
-            "Customer Name": "CYNTHIA WAMAHIGA",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "BANANA",
-                "Product_Quantity": 4,
-                "Product_Price": "10.00",
-                "Sub-Total": "40.00"
-            },
-            "Total": "40.00"
-        },
-        "Ord3": {
-            "Customer Name": "Wamahiga",
-            "Email": "wanjirucynthia@gmail.com",
-            "Prod1": {
-                "Product_id": 2,
-                "Product_Name": "MANGO",
-                "Product_Quantity": 2,
-                "Product_Price": "20.00",
-                "Sub-Total": "40.00"
-            },
-            "Total": "40.00"
-        },
-        "Ord4": {
-            "Customer Name": "Allan Wekesa",
-            "Email": "allanwafula2017@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "BANANA",
-                "Product_Quantity": 2,
-                "Product_Price": "10.00",
-                "Sub-Total": "20.00"
-            },
-            "Prod2": {
-                "Product_id": 2,
-                "Product_Name": "MANGO",
-                "Product_Quantity": 3,
-                "Product_Price": "20.00",
-                "Sub-Total": "60.00"
-            },
-            "Total": "80.00"
-        },
-        "Ord5": {
-            "Customer Name": "JOSE MANDEVU",
-            "Email": "jose@mandevu.com",
-            "Prod1": {
-                "Product_id": 3,
-                "Product_Name": "tomatoes",
-                "Product_Quantity": 3,
-                "Product_Price": "2.00",
-                "Sub-Total": "6.00"
-            },
-            "Total": "6.00"
-        },
-        "Ord6": {
-            "Customer Name": "PRESTON NJOROGE",
+            "Customer Name": "Cynthia Wanjiru",
             "Email": "cynthiawamahiga@gmail.com",
             "Prod1": {
                 "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 7,
-                "Product_Price": "20.00",
+                "Product_Name": "Ariel washing detergent 1kg",
+                "Product_Quantity": 1,
+                "Product_Price": "70.00",
+                "Sub-Total": "70.00"
+            },
+            "Total": "70.00"
+        },
+        "Ord3": {
+            "Customer Name": "Cynthia Wanjiru",
+            "Email": "cynthiawamahiga@gmail.com",
+            "Prod1": {
+                "Product_id": 1,
+                "Product_Name": "Ariel washing detergent 1kg",
+                "Product_Quantity": 3,
+                "Product_Price": "70.00",
+                "Sub-Total": "210.00"
+            },
+            "Total": "210.00"
+        },
+        "Ord4": {
+            "Customer Name": "Cynthia Wanjiru",
+            "Email": "cynthiawamahiga@gmail.com",
+            "Prod1": {
+                "Product_id": 4,
+                "Product_Name": "Delmonte Mango ",
+                "Product_Quantity": 6,
+                "Product_Price": "275.00",
+                "Sub-Total": "1650.00"
+            },
+            "Prod2": {
+                "Product_id": 3,
+                "Product_Name": "Kifaru Matches 12 packs",
+                "Product_Quantity": 23,
+                "Product_Price": "25.00",
+                "Sub-Total": "575.00"
+            },
+            "Prod3": {
+                "Product_id": 3,
+                "Product_Name": "Kifaru Matches 12 packs",
+                "Product_Quantity": 5,
+                "Product_Price": "25.00",
+                "Sub-Total": "125.00"
+            },
+            "Total": "2350.00"
+        },
+        "Ord5": {
+            "Customer Name": "Cynthia Wanjiru",
+            "Email": "cynthiawamahiga@gmail.com",
+            "Prod1": {
+                "Product_id": 4,
+                "Product_Name": "Delmonte Mango ",
+                "Product_Quantity": 44,
+                "Product_Price": "275.00",
+                "Sub-Total": "12100.00"
+            },
+            "Total": "12100.00"
+        },
+        "Ord6": {
+            "Customer Name": "Cynthia Wanjiru",
+            "Email": "cynthiawamahiga@gmail.com",
+            "Prod1": {
+                "Product_id": 1,
+                "Product_Name": "Ariel washing detergent 1kg",
+                "Product_Quantity": 2,
+                "Product_Price": "70.00",
                 "Sub-Total": "140.00"
             },
             "Total": "140.00"
         },
         "Ord7": {
-            "Customer Name": "Dr Albert",
-            "Email": "albert@jengaschool.com",
+            "Customer Name": "Cynthia Wanjiru",
+            "Email": "cynthiawamahiga@gmail.com",
             "Prod1": {
-                "Product_id": 2,
-                "Product_Name": "GRAPES",
-                "Product_Quantity": 3,
-                "Product_Price": "100.00",
-                "Sub-Total": "300.00"
-            },
-            "Prod2": {
-                "Product_id": 2,
-                "Product_Name": "GRAPES",
+                "Product_id": 1,
+                "Product_Name": "Ariel washing detergent 1kg",
                 "Product_Quantity": 2,
-                "Product_Price": "100.00",
-                "Sub-Total": "200.00"
-            },
-            "Total": "500.00"
-        },
-        "Ord8": {
-            "Customer Name": "CYNTHIA WAMAHIGA",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 3,
-                "Product_Name": "tomatoes",
-                "Product_Quantity": 2,
-                "Product_Price": "2.00",
-                "Sub-Total": "4.00"
-            },
-            "Total": "4.00"
-        },
-        "Ord9": {
-            "Customer Name": "CYNTHIA WAMAHIGA",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 3,
-                "Product_Name": "tomatoes",
-                "Product_Quantity": 2,
-                "Product_Price": "2.00",
-                "Sub-Total": "4.00"
-            },
-            "Total": "4.00"
-        },
-        "Ord10": {
-            "Customer Name": "CYNTHIA WAMAHIGA",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 1,
-                "Product_Price": "20.00",
-                "Sub-Total": "20.00"
-            },
-            "Prod2": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 1,
-                "Product_Price": "20.00",
-                "Sub-Total": "20.00"
-            },
-            "Total": "40.00"
-        },
-        "Ord11": {
-            "Customer Name": "carol",
-            "Email": "carolinewaruingu6@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 2,
-                "Product_Price": "20.00",
-                "Sub-Total": "40.00"
-            },
-            "Total": "40.00"
-        },
-        "Ord12": {
-            "Customer Name": "CYNTHIA WAMAHIGA",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 91,
-                "Product_Price": "20.00",
-                "Sub-Total": "1820.00"
-            },
-            "Total": "1820.00"
-        },
-        "Ord13": {
-            "Customer Name": "CYNTHIA WAMAHIGA",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 3,
-                "Product_Name": "tomatoes",
-                "Product_Quantity": 4,
-                "Product_Price": "2.00",
-                "Sub-Total": "8.00"
-            },
-            "Total": "8.00"
-        },
-        "Ord14": {
-            "Customer Name": "carol",
-            "Email": "carolinewaruingu6@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 1,
-                "Product_Price": "20.00",
-                "Sub-Total": "20.00"
-            },
-            "Prod2": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 1,
-                "Product_Price": "20.00",
-                "Sub-Total": "20.00"
-            },
-            "Total": "40.00"
-        },
-        "Ord15": {
-            "Customer Name": "CYNTHIA WAMAHIGA",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 2,
-                "Product_Price": "20.00",
-                "Sub-Total": "40.00"
-            },
-            "Prod2": {
-                "Product_id": 2,
-                "Product_Name": "GRAPES",
-                "Product_Quantity": 2,
-                "Product_Price": "100.00",
-                "Sub-Total": "200.00"
-            },
-            "Total": "240.00"
-        },
-        "Ord16": {
-            "Customer Name": "John",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 2,
-                "Product_Price": "20.00",
-                "Sub-Total": "40.00"
-            },
-            "Total": "40.00"
-        },
-        "Ord17": {
-            "Customer Name": "John",
-            "Email": "wanjirucynthia01@gmail.com",
-            "Prod1": {
-                "Product_id": 1,
-                "Product_Name": "TOMATOES",
-                "Product_Quantity": 7,
-                "Product_Price": "20.00",
+                "Product_Price": "70.00",
                 "Sub-Total": "140.00"
             },
             "Total": "140.00"
         },
-        "Ord18": {
-            "Customer Name": "John",
-            "Email": "wanjirucynthia01@gmail.com",
+        "Ord8": {
+            "Customer Name": "Cynthia Wanjiru",
+            "Email": "cynthiawamahiga@gmail.com",
             "Prod1": {
                 "Product_id": 4,
-                "Product_Name": "potatoes",
-                "Product_Quantity": 3,
-                "Product_Price": "600.00",
-                "Sub-Total": "1800.00"
+                "Product_Name": "Delmonte Mango ",
+                "Product_Quantity": 0,
+                "Product_Price": "275.00",
+                "Sub-Total": "0.00"
             },
-            "Total": "1800.00"
+            "Total": "0.00"
+        },
+        "Ord9": {
+            "Customer Name": "Peter Griffin",
+            "Email": "grifin@gmail.com",
+            "Prod1": {
+                "Product_id": 1,
+                "Product_Name": "Ariel washing powder",
+                "Product_Quantity": 2,
+                "Product_Price": "200.00",
+                "Sub-Total": "400.00"
+            },
+            "Total": "400.00"
+        },
+        "Ord10": {
+            "Customer Name": "Cynthia Wanjiru",
+            "Email": "cynthiawamahiga@gmail.com",
+            "Prod1": {
+                "Product_id": 4,
+                "Product_Name": "Delmonte mango",
+                "Product_Quantity": 1,
+                "Product_Price": "275.00",
+                "Sub-Total": "275.00"
+            },
+            "Prod2": {
+                "Product_id": 2,
+                "Product_Name": "Salit cooking oil 5kg",
+                "Product_Quantity": 12,
+                "Product_Price": "1200.00",
+                "Sub-Total": "14400.00"
+            },
+            "Total": "14675.00"
         }
     }
 ]

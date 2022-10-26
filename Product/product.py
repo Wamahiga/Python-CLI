@@ -5,7 +5,7 @@ from Product.view_product import view_product
 from Product.delete_product import delete_product
 from Product.update_product import update_product
 
-def product_info():
+def product_operations():
     while True:
 
         print("""

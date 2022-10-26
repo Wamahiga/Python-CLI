@@ -29,6 +29,5 @@ def add_product():
     temp.append(prod_data)
     with open(filename, "w") as f:
         json.dump(temp, f, indent=4)
-        print("\nProduct Added successfully!")
+        print("\nPRODUCT ADDED SUCCESSFULLY!")
         print("*******************************")
-        main_menu

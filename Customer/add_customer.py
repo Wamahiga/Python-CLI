@@ -12,7 +12,7 @@ def add_customer():
     cus_data["Customer_Name"] = input("\nEnter customer's name: ")
     while True:
         try:
-            gender_rec = int(input("\nSelect customers gender: \n 1 Male\n 2 Female: "))
+            gender_rec = int(input("\nSelect customers gender: \n 1 Male\n 2 Female \n : "))
         except ValueError:
             print(f"\nINVALID INPUT!")
             continue
